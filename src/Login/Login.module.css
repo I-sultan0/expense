@@ -1,0 +1,111 @@
+.SignLogin {
+  display: grid;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.SignLogin img {
+  width: 100%;
+  background-size: contain;
+  z-index: -1;
+}
+.signups {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  width: 350px;
+  border-radius: 8px;
+}
+.signups h2 {
+  color: white;
+  margin: 20px;
+}
+.signups p {
+  margin-top: 20px;
+}
+.socials {
+  width: 60%;
+  margin: 0 auto;
+}
+.socials ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 0;
+  padding: 0;
+  width: 80%;
+  margin: 0 auto;
+}
+.socials ul li {
+  list-style: none;
+}
+
+.inputs {
+  align-items: center;
+  margin: 2% auto;
+}
+.inputs input {
+  margin-top: 20px;
+  border-radius: 5px;
+  display: block;
+  border: none;
+  padding: 0.6rem;
+  margin: 20px auto;
+  width: 300px;
+}
+
+.btn button {
+  margin-top: 10px;
+  background: #ff6b08;
+  padding: 0.6rem;
+  border-radius: 12px;
+  width: 150px;
+  font-weight: bold;
+  border: none;
+  display: block;
+  margin: 15px auto;
+  cursor: pointer;
+}
+
+.btn p {
+  display: inline;
+  margin-bottom: 20px;
+}
+
+.para {
+  margin: 25px auto;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+.span {
+  color: #ff6b08;
+  font-weight: bold;
+  cursor: pointer;
+}
+.forget {
+  cursor: pointer;
+  color: white;
+  width: fit-content;
+  margin: 0 auto;
+  /* padding: 0.1rem; */
+  border-radius: 10px;
+}
+.forget p {
+  padding: 0.3rem;
+}
+
+@media screen and (max-width: 768px) {
+  .SignLogin {
+    position: absolute;
+  }
+  .SignLogin img {
+    height: 100vh;
+  }
+  .signups {
+    z-index: 10;
+    top: 50%;
+  }
+}
