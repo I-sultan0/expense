@@ -56,7 +56,7 @@ const ExpenseForm = (props) => {
           />
         </div>
         <div className="new-expense__control">
-          <label>Amount</label>
+          <label>Amounttt</label>
           <input
             type="number"
             min="1"
