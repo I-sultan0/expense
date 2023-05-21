@@ -38,7 +38,7 @@ const Navbar = () => {
           )}
           {loggedIn && (
             <button onClick={logoutHandler} className={classes.logout}>
-              Logout
+              Logoutt
             </button>
           )}{" "}
         </ul>
